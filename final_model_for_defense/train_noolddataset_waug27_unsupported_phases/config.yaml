@@ -1,0 +1,8 @@
+model_type: mobilenetv2
+run_phase: train
+dataset_path: augmented_dataset
+augmentation_mode: training
+batch_size: 32
+epochs: 30
+freeze_backbone: False
+initial_weights_path: None
